@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food Website Design</title>
+
+        <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+        <!-- aos css cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+        <!-- google fonts cdn link  -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+        <!-- Title Icon -->
+        <link rel="icon" href="images/logo-img.png">
+
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <!-- header section starts -->
+        <header>
+                <a href="#home" class="logo"><img src="images/logo-img.png" alt="photo"> </a>
+                <div id="menu-bar" class="fas fa-hamburger"></div>
+                <nav class="navbar">
+                        <ul>
+                            <li class="active"><a href="#home">home</a></li>
+                            <li><a href="ourpages/about.html">about</a></li>
+                            <li><a href="ourpages/menu.html">menu</a></li>
+                            <li><a href="ourpages/gallery.html">gallary</a></li>
+                            <li><a href="ourpages/contact.html">contact us</a></li>
+                        </ul>
+                </nav>
+        </header>
+                <!-- header section ends -->
+
+                <!-- home section starts  -->
+
+                <section class="home" id="home">
+
+                    <div class="content" data-aos="fade-right">
+                        <h3>We belive good food offer great smile</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, odit distinctio error corporis adipisci molestias eveniet optio quaerat tempore asperiores!</p>
+                        <a href="ourpages/about.html"><button class="btn">get started</button></a>
+                    </div>
+
+                    <div class="image" data-aos="fade-up">
+                        <img src="images/281-2811831_asian-food-png-healthy-food-dish-png-transparent.png" alt="photo">
+                    </div>
+                </section>
+
+                <!-- home section ends -->
+
+
+            <!-- aos js cdn link  -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+            <!-- jquery cdn link  -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+            <!-- custom js file link  -->
+            <script src="js/script.js"></script>
+            <!-- initializing aos  -->
+            <script>
+
+                AOS.init({
+                    delay:400,
+                    duration:1000
+                })
+
+            </script>
+
+    </body>
+</html>
